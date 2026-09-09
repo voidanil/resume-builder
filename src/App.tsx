@@ -13,6 +13,7 @@ import PreviewMode from "./components/PreviewMode";
 import Projects from "./components/Projects";
 import { RiInformationFill } from "react-icons/ri";
 
+// screens
 const screens = [
   <PersonalDetails />,
   <EductationDetails />,
@@ -82,7 +83,7 @@ function App() {
             borderRadius={"5px"}
           >
             {screens.map(
-              (screen, i) => i === stepperIndex && <Box key={i}>{screen}</Box>
+              (screen, i) => i === stepperIndex && <Box key={i}>{screen}</Box>,
             )}
           </Box>
         </HStack>
