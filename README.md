@@ -4,4 +4,4 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 # Resume Builder
 
-[Click here for Demo](https://voidanil.github.io/resume_builder/)
+[Click here for Demo](https://voidanil.github.io/resume-builder/)
